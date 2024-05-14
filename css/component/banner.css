@@ -1,0 +1,28 @@
+.banner {
+    background-image: url(../../images/lilas.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.banner h1 {
+    color: white;
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+.banner h2 {
+	font-family: Madimi one;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 10px;

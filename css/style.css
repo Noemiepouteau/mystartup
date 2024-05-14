@@ -1,0 +1,121 @@
+@import url("component/cards.css");
+@import url("component/banner.css");
+@import url("component/testimony.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2e6fa;
+    color: #333;
+}
+
+h2 {
+    font-family: "Sacramento", cursive;
+     font-size: 40px;;
+}
+
+.presentation {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.presentation h2 {
+    margin-bottom: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.contact {
+    background-color: #f2e6fa;
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+.contact h2 {
+    font-family: "Sacramento", cursive; 
+    font-size: 30px; 
+}
+
+.contact form {
+    margin-bottom: 20px; 
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+.contact form button {
+    background-color: #6a0dad;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #4b0756;
+}
+
+.coordonnees {
+    margin-top: 20px;
+}
+
+.coordonnees h3 {
+    font-family: "Sacramento", cursive;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.coordonnees p {
+    margin-bottom: 5px;
+}
+
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.gallery-images img {
+    width: 200px; /* Définir une largeur fixe pour toutes les images */
+    height: 200px; /* Définir une hauteur fixe pour toutes les images */
+    object-fit: cover; /* Étirer ou rétrécir l'image pour couvrir la zone définie */
+    border-radius: 10px; /* Arrondir les coins */
+}
